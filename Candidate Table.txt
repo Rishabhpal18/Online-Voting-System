@@ -1,0 +1,7 @@
+CREATE TABLE Candidate (
+    candidate_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    party VARCHAR(100),
+    votes INT DEFAULT 0
+);
+
